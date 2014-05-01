@@ -1,0 +1,10 @@
+{
+  "name": "spit",
+  "description": "split testing frontend component",
+  "version": "0.1.0",
+  "dependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
