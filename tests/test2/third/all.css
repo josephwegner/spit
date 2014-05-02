@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #62ab1b;
+}
+
+#innards {
+  background: url("images/logo.png") center center no-repeat;
+  height: 101px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  margin-top: -52.5px;
+  left: 50%;
+  margin-left: -53px;
+  border-radius: 9px;
+  transition: background-color 1s;
+}
+
+#innards:hover {
+  background-color: #edb406;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  position: relative;
+  top: 10px;
+}
+
+#range {
+  position: absolute;
+  top: 50%;
+  margin-top: -75px;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+}

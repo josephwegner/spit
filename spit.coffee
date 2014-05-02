@@ -60,7 +60,6 @@ class window.Spit
     @loadJS()
 
   initializeKeen: ->
-    console.log @options
 
     @keen = new SpitKeen
       projectId: @options.keen_project_id
